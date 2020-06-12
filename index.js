@@ -2,7 +2,7 @@ const express=require('express');
 const app=express();
 
 app.get('/',(req,res)=>{
-    res.send("Hello World");
+    res.sendFile(process.cwd()+'/views/index.html');
 });
 
 app.listen(8085,()=>{
