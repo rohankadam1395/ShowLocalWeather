@@ -1,6 +1,10 @@
 #root{
-    background-color: green;
+    width:100vw;
+    height:100vh;
+    background-color: black;
 }
 body{
     background-color: greenyellow;
+    color: red;
+    margin: 0em;
 }

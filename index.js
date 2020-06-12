@@ -1,6 +1,6 @@
 const express=require('express');
 const app=express();
-
+app.use('/public',express.static(process.cwd()+'/public'));
 app.get('/',(req,res)=>{
     res.sendFile(process.cwd()+'/views/index.html');
 });
