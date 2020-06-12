@@ -1,0 +1,19 @@
+{
+  "name": "showlocalweather",
+  "version": "1.0.0",
+  "description": "freeCodeCampProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohankadam1395/ShowLocalWeather.git"
+  },
+  "author": "rohan_kadam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohankadam1395/ShowLocalWeather/issues"
+  },
+  "homepage": "https://github.com/rohankadam1395/ShowLocalWeather#readme"
+}
