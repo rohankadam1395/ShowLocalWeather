@@ -1,10 +1,46 @@
-#root{
-    width:100vw;
-    height:100vh;
-    background-color: black;
-}
+
 body{
     background-color: greenyellow;
-    color: red;
+    color: white;
     margin: 0em;
+   
+}
+
+#root{
+    display:flex;
+    flex-direction: column;
+justify-content: space-evenly;
+   align-items: center;
+    width:100vw;
+    min-height:100vh;
+    background-color: black;
+}
+
+header{
+text-align: center;
+font-size:5em;
+ color: white;
+  font-family: cursive;
+}
+#location{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+#temperature{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800;
+    color:white;
+
+}
+#weather_image{
+    text-align: center;
+height:100%;
+max-width: 100%;
+height: auto;
+}
+#temperature_unit:hover{
+color:blue;
 }
